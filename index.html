@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish-Tech Portfolio</title>
+    <style>
+body{
+    background-color: rgb(18, 18, 37);
+    color: aliceblue;
+    font-family:'Roboto Slab', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:rgb(27, 6, 6);
+    height: 5rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+   
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color: antiquewhite;
+}
+nav ul li a:hover{
+    
+    font-size: large;
+}
+.left{
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(124, 22, 219);
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  p{
+    font-family: 'Roboto Slab', serif;
+    color: #93BFCF;
+  }
+  .firstSection div{
+    width: 40%;
+  }
+  .leftSection{
+    
+    text-align: center;
+    margin: 10%;
+    font-size: 30px;
+    
+  }
+  .rightSection{
+    
+    text-align: center;
+   margin: 25px;
+ 
+
+ }
+ img{
+    height: 20rem;
+    margin: 4rem 2rem 0rem 0rem;
+ }
+.colored{
+    color: rgb(124, 22, 219);
+}
+#element{
+    color: #7850c7;
+}
+.secondSection{
+    max-width:80vw;
+    margin:auto;
+    font-size: larger;
+}
+main hr{
+border: 0;
+margin:140px 34px;
+height: 1.2px;
+
+background: #514d9c;
+}
+.textgray{
+    color: gray;
+    font-size: large;
+
+}
+footer{
+    background-color: #282A3A;
+    height: 100px;
+}
+.footer{
+    color: #342be2;
+    display: flex;
+   padding:23px 122px ;
+   justify-content: space-evenly;
+   font-size: 20px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+   
+}
+footer ul li{
+    margin: 0px 40px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+.footer-third{
+    font-size: 20px;
+    text-align: center;
+    
+ }
+.leftSection .btn{
+    
+    background-color: #8304f2;
+    text-decoration: none;
+    
+    border: 2px solid white;
+    font-size: 17px;
+    cursor:pointer;
+    border-radius: 15%;
+   
+}
+.leftSection .buttons{
+    display: flex;
+     padding: 50px 0px;
+    width: 12rem;
+    margin-left: 9rem;
+    
+    
+}
+#one{
+    margin-right: 90px;
+}
+a{
+    text-decoration: none;
+}
+
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Elevating Technology: Satish's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Certifications</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Welcome, I'm <span class="colored">Satish</span>,
+                <span id="element"></span> <p>Guided by a Burning Desire for Web Development.</p>
+           
+                <div class="buttons">
+                    <button class="btn" id="one"><a href="https://github.com/Satishmirjan">Visit GitHub</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/satish-naik-071095205/">Visit LinkedIn</a></button>
+                    </div> </div>  
+           
+            <div class="rightSection"><img src="./sftck-mn-img01.png" alt="background_image"></div>
+
+        </section>
+    
+    </main>
+    <footer class="footer">
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Satish's Developer Portfolio</h3>
+            </div>
+        </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Certifications</li>
+                    <li>Project</li>
+                    <li>Contact</li>
+                </ul>
+            </div>        
+            
+        
+   
+    </footer>
+    <div class="footer-third">www.satishsportfolio.com | All rights reserved</div>
+        
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Creating Web Magic.', '&amp;Coding Dreams into Reality.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
