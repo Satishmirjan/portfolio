@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    
 </head>
+
 <body>
     <header>
         <nav>
@@ -28,41 +29,42 @@
     </header>
     <main>
         <section class="firstSection">
-            <div class="leftSection">Welcome, I'm <span class="colored">Satish</span>,
-                <span id="element"></span> <p>Guided by a Burning Desire for Web Development.</p>
-           
+            <div class="leftSection">
+                Welcome, I'm <span class="colored">Satish</span>, <span id="element"></span>
+                <p>Guided by a Burning Desire for Web Development.</p>
                 <div class="buttons">
                     <button class="btn" id="one"><a href="https://github.com/Satishmirjan">Visit GitHub</a></button>
                     <button class="btn"><a href="https://www.linkedin.com/in/satish-naik-071095205/">Visit LinkedIn</a></button>
-                    </div> </div>  
-           
+                </div>
+            </div>
             <div class="rightSection"><img src="./sftck-mn-img01.png" alt="background_image"></div>
-
         </section>
-    
     </main>
     <footer class="footer">
-        <div class="flex">
-            <div class="footer-first">
-                <h3>Satish's Developer Portfolio</h3>
-            </div>
+        <div class="footer-first">
+            <h3>Satish's Developer Portfolio</h3>
         </div>
-            <div class="footer-second">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Certifications</li>
-                    <li>Project</li>
-                    <li>Contact</li>
-                </ul>
-            </div>        
-            
-        
-   
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Certifications</li>
+                <li>Project</li>
+                <li>Contact</li>
+            </ul>
+        </div>
     </footer>
     <div class="footer-third">www.satishsportfolio.com | All rights reserved</div>
-        
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Creating Web Magic.', 'Coding Dreams into Reality.'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true,
+        });
+    </script>
 </body>
+
 </html>
