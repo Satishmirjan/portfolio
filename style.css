@@ -1,7 +1,4 @@
 
-
-  
-  /* General Styles */
 body {
     background-color: rgb(80, 31, 170);
     color: aliceblue;
@@ -11,7 +8,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Header and Navigation */
 header {
     position: sticky;
     top: 0;
@@ -55,7 +51,6 @@ nav ul li a:hover {
     color: rgb(124, 22, 219);
 }
 
-/* Hero Section */
 .firstSection {
     display: flex;
     justify-content: space-between;
@@ -121,7 +116,6 @@ nav ul li a:hover {
     color: #7850c7;
 }
 
-/* Footer Styles */
 footer {
     background: linear-gradient(to right, #282A3A, #121212);
     padding: 2rem 0;
